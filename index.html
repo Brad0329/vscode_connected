@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>나의 첫 홈페이지</title>
+    <!-- Tailwind CSS 로드 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts (Noto Sans KR) 로드 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Noto Sans KR 폰트 적용 */
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-100">
+
+    <!-- 전체 화면을 차지하는 컨테이너 -->
+    <main class="min-h-screen flex items-center justify-center p-4">
+
+        <!-- 카드 형태의 메인 콘텐츠 영역 -->
+        <div class="max-w-2xl w-full bg-white rounded-2xl shadow-xl overflow-hidden">
+
+            <!-- 가족 이미지 -->
+            <div class="w-full">
+                <img src="https://images.unsplash.com/photo-1503612299833-abc41f354a43?q=80&w=1974&auto=format&fit=crop"
+                    alt="소파에 앉아 함께 웃고 있는 편안한 가족의 모습" class="w-full h-auto object-cover"
+                    onerror="this.onerror=null;this.src='https://placehold.co/1200x800/e2e8f0/475569?text=이미지+로드+실패';">
+            </div>
+
+            <!-- 환영 문구 -->
+            <div class="p-8 sm:p-12 text-center">
+                <h1 class="text-2xl md:text-3xl font-bold text-gray-800">
+                    이것은 저의 첫 홈페이지 제작 화면입니다
+                </h1>
+                <p class="mt-4 text-gray-600">
+                    방문을 환영합니다!
+                </p>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
